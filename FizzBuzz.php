@@ -1,6 +1,6 @@
 <?php
 class FizzBuzz{
-    function say(){
-        return 1;
+    function say($num){
+        return $num;
     }
 }
