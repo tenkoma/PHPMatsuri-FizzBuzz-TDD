@@ -6,5 +6,6 @@ class FizzBuzzTest extends PHPUnit_Framework_TestCase {
         $this->object = new FizzBuzz();
     }
     public function testOne(){
+        $this->assertEquals(1, $this->object->say(1));
     }
 }
